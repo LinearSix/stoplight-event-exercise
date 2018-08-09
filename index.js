@@ -20,4 +20,23 @@ const lgtGo = document.getElementById('goLight');
   btnGo.addEventListener('click', (event) => {
     lgtGo.classList.toggle(`go`);
   });
+
+  btnStop.addEventListener(`mouseenter`, () => {
+    console.log(`Entered ${btnStop.innerText} button`);
+  });
+  btnStop.addEventListener(`mouseleave`, () => {
+    console.log(`Left ${btnStop.innerText} button`);
+  });
+  btnSlow.addEventListener(`mouseenter`, () => {
+    console.log(`Entered ${btnSlow.innerText} button`);
+  });
+  btnSlow.addEventListener(`mouseleave`, () => {
+    console.log(`Left ${btnSlow.innerText} button`);
+  });
+  btnGo.addEventListener(`mouseenter`, () => {
+    console.log(`Entered ${btnGo.innerText} button`);
+  });
+  btnGo.addEventListener(`mouseleave`, () => {
+    console.log(`Left ${btnGo.innerText} button`);
+  });
 })();
